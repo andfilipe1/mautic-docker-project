@@ -69,10 +69,10 @@ docker run -d --restart always \
 
 ###### Faz o pull da imagem do nginx-proxy-custom para o host
 ```bash
-sudo docker pull andfilipe1/nginx-proxy-latest
+sudo docker pull andfilipe1/nginx-proxy-custom
 
 sudo docker run -d -p 80:80 -p 443:443 \
-  --name eou-nginx-proxy \
+  --name nginx-proxy-custom \
   -e ENABLE_IPV6=true \
   --restart always \
   -v /path/to/certs:/etc/nginx/certs:ro \
@@ -94,7 +94,7 @@ docker pull jrcs/letsencrypt-nginx-proxy-companion:latest
 docker run --name letsencrypt -d --restart always \
   -v /path/to/certs:/etc/nginx/certs:rw \
   -v /var/run/docker.sock:/var/run/docker.sock:ro \
-  --volumes-from eou-nginx-proxy \
+  --volumes-from nginx-proxy-custom \
   jrcs/letsencrypt-nginx-proxy-companion:latest
 ```
 
