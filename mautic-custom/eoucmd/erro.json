@@ -1,0 +1,9 @@
+{
+  "stdout": "",
+  "stderr": "sh: lk: command not found",
+  "exitcode": 127,
+  "completed": false,
+  "start": "2018-03-27 06:03:28",
+  "end": "2018-03-27 06:03:28",
+  "command": "lk -j"
+}

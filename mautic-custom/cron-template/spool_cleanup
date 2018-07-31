@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+1 * * * *    www-data    find /var/www/html/app/spool/default/*.sending -amin +90 -delete

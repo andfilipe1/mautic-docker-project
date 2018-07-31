@@ -1,0 +1,9 @@
+{
+  "stdout": "total 32\ndrwxr-xr-x   8 luizeof  staff   272 27 Mar 15:42 .\ndrwxr-xr-x  11 luizeof  staff   374 26 Mar 15:34 ..\n-rw-r--r--   1 luizeof  staff   819 27 Mar 15:44 command.php\n-rw-r--r--   1 luizeof  staff    73 26 Mar 15:36 composer.json\n-rw-r--r--   1 luizeof  staff  1838 26 Mar 15:36 composer.lock\n-rw-r--r--   1 luizeof  staff   189 27 Mar 15:43 erro.json\n-rw-r--r--   1 luizeof  staff     0 27 Mar 15:44 sucesso.json\ndrwxr-xr-x   5 luizeof  staff   170 26 Mar 15:36 vendor",
+  "stderr": "",
+  "exitcode": 0,
+  "completed": true,
+  "start": "2018-03-27 06:03:09",
+  "end": "2018-03-27 06:03:09",
+  "command": "ls -all"
+}
